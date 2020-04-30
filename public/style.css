@@ -214,3 +214,31 @@ main {
 .solar #solarIcon {
   display: block;
 }
+
+body {
+  background:#111;
+  color:#fff;
+  font-family:"Open Sans",sans-serif;
+}
+.center {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+.download-btn {
+  width:200px;
+  height:60px;
+  text-align:center;
+  cursor:pointer;
+  margin:20px 0px;
+  border-radius:10px;
+  box-sizing:border-box;
+  overflow:hidden;
+}
+.download-btn.btn-1 {
+  border:5px solid #00acee;
+}
+.download-btn.btn-2 {
+  border:5px solid #7b76e2;
+}
